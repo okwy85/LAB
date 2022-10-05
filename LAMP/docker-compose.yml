@@ -19,5 +19,5 @@ services:
         container_name: php
         links:
             - mydb:mysql      
-	    - apache:httpd
+- apache:httpd
 ...
